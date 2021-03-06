@@ -63,8 +63,13 @@ const movies = [{
 // create showMovies function
 
 function showMovies() {
+    //   var moviesEl = document.getElementById('all-movies')
+
+
+
     for (var i = 0; i < movies.length; i++) {
         console.log(movies);
+
     }
 }
 showMovies();
